@@ -1,21 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-main{
-    background-color: white;
-    height: 300vh;
+body {
+  background-image: url(images/bg-hero-desktop.svg);
+  width: 100%;
+  height: 100vh;
 }
-footer{
-    background-color: darkslategray;
-    width: 100%;
-    height: 50vh;
+main {
+  height: 300vh;
 }
-h1, h2, h3, h4, h5, h6{
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
+footer {
+  background-color: darkslategray;
+  width: 100%;
+  height: 50vh;
 }
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.sectionone {
+  margin: auto;
+}
+
+#topbtn {
+  padding: 10px;
+  border-radius: 15px;
+  padding: 20px;
+}
+.divcontain {
+  display: flex;
+  height: 50vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.stnoneone {
+  width: 50%;
+}
+.stnoneimg {
+  width: fit-content;
+  align-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
 }
