@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
 }
-body {
+.firstsection {
   background-image: url(images/bg-hero-desktop.svg);
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+}
+.secondsection{
+  margin: auto;
+  padding: 50px 10px;
 }
 main {
-  height: 300vh;
+  min-height: 150vh;
 }
 footer {
   background-color: darkslategray;
@@ -42,16 +46,33 @@ p {
   height: 50vh;
   margin-top: 50px;
   margin-bottom: 50px;
+  gap: 2rem;
 }
-.stnoneone {
+.divcontain > *{
+  flex-shrink: 1;
+  flex-basis: 100%;
+  padding: 20px 50px;
+}
+/* .stnoneone {
   width: 50%;
 }
 .stnoneimg {
   width: fit-content;
   align-content: center;
-}
+} */
 header {
   display: flex;
   justify-content: space-between;
   margin: 20px 20px;
 }
+
+.sectiontwo{
+  display: flex;
+}
+.sectionthree{
+  display: flex;
+}
+.sectionfour{
+  display: flex;
+}
+
